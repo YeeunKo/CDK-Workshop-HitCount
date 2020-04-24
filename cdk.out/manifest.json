@@ -1,0 +1,554 @@
+{
+  "version": "1.33.0",
+  "artifacts": {
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    },
+    "cdkworkshop": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/ap-northeast-2",
+      "properties": {
+        "templateFile": "cdkworkshop.template.json"
+      },
+      "metadata": {
+        "/cdkworkshop": [
+          {
+            "type": "aws:cdk:asset",
+            "data": {
+              "path": "asset.4a871174e10ad9df76f44cdee7ba8ec75d8ef93c5f9f589b7dfb0c3d846ea3ec",
+              "id": "4a871174e10ad9df76f44cdee7ba8ec75d8ef93c5f9f589b7dfb0c3d846ea3ec",
+              "packaging": "zip",
+              "sourceHash": "4a871174e10ad9df76f44cdee7ba8ec75d8ef93c5f9f589b7dfb0c3d846ea3ec",
+              "s3BucketParameter": "AssetParameters4a871174e10ad9df76f44cdee7ba8ec75d8ef93c5f9f589b7dfb0c3d846ea3ecS3BucketEA3D7EC8",
+              "s3KeyParameter": "AssetParameters4a871174e10ad9df76f44cdee7ba8ec75d8ef93c5f9f589b7dfb0c3d846ea3ecS3VersionKeyE46FC0BF",
+              "artifactHashParameter": "AssetParameters4a871174e10ad9df76f44cdee7ba8ec75d8ef93c5f9f589b7dfb0c3d846ea3ecArtifactHash0F0F3249"
+            },
+            "trace": [
+              "ConstructNode.addMetadata (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\core\\lib\\construct-compat.js:306:62)",
+              "Stack.addFileAsset (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\core\\lib\\stack.js:368:23)",
+              "new Asset (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-s3-assets\\lib\\asset.js:30:32)",
+              "AssetCode.bind (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-lambda\\lib\\code.js:135:26)",
+              "new Function (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.js:69:33)",
+              "C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7853:49",
+              "Kernel._wrapSandboxCode (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:8313:20)",
+              "Kernel._create (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7853:26)",
+              "Kernel.create (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7600:21)",
+              "KernelHost.processRequest (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7388:28)",
+              "KernelHost.run (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7328:14)",
+              "Immediate._onImmediate (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7331:37)",
+              "processImmediate (internal/timers.js:456:21)"
+            ]
+          }
+        ],
+        "/cdkworkshop/HelloHandler/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "HelloHandlerServiceRole11EF7C63",
+            "trace": [
+              "new Role (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.js:41:22)",
+              "new Function (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.js:61:35)",
+              "C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7853:49",
+              "Kernel._wrapSandboxCode (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:8313:20)",
+              "Kernel._create (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7853:26)",
+              "Kernel.create (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7600:21)",
+              "KernelHost.processRequest (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7388:28)",
+              "KernelHost.run (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7328:14)",
+              "Immediate._onImmediate (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7331:37)",
+              "processImmediate (internal/timers.js:456:21)"
+            ]
+          }
+        ],
+        "/cdkworkshop/HelloHandler/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "HelloHandler2E4FBA4D",
+            "trace": [
+              "new Function (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.js:72:26)",
+              "C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7853:49",
+              "Kernel._wrapSandboxCode (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:8313:20)",
+              "Kernel._create (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7853:26)",
+              "Kernel.create (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7600:21)",
+              "KernelHost.processRequest (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7388:28)",
+              "KernelHost.run (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7328:14)",
+              "Immediate._onImmediate (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7331:37)",
+              "processImmediate (internal/timers.js:456:21)"
+            ]
+          }
+        ],
+        "/cdkworkshop/AssetParameters/4a871174e10ad9df76f44cdee7ba8ec75d8ef93c5f9f589b7dfb0c3d846ea3ec/S3Bucket": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters4a871174e10ad9df76f44cdee7ba8ec75d8ef93c5f9f589b7dfb0c3d846ea3ecS3BucketEA3D7EC8",
+            "trace": [
+              "new FileAssetParameters (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\core\\lib\\private\\asset-parameters.js:11:36)",
+              "Stack.addFileAsset (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\core\\lib\\stack.js:358:22)",
+              "new Asset (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-s3-assets\\lib\\asset.js:30:32)",
+              "AssetCode.bind (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-lambda\\lib\\code.js:135:26)",
+              "new Function (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.js:69:33)",
+              "C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7853:49",
+              "Kernel._wrapSandboxCode (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:8313:20)",
+              "Kernel._create (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7853:26)",
+              "Kernel.create (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7600:21)",
+              "KernelHost.processRequest (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7388:28)",
+              "KernelHost.run (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7328:14)",
+              "Immediate._onImmediate (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7331:37)",
+              "processImmediate (internal/timers.js:456:21)"
+            ]
+          }
+        ],
+        "/cdkworkshop/AssetParameters/4a871174e10ad9df76f44cdee7ba8ec75d8ef93c5f9f589b7dfb0c3d846ea3ec/S3VersionKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters4a871174e10ad9df76f44cdee7ba8ec75d8ef93c5f9f589b7dfb0c3d846ea3ecS3VersionKeyE46FC0BF",
+            "trace": [
+              "new FileAssetParameters (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\core\\lib\\private\\asset-parameters.js:15:35)",
+              "Stack.addFileAsset (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\core\\lib\\stack.js:358:22)",
+              "new Asset (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-s3-assets\\lib\\asset.js:30:32)",
+              "AssetCode.bind (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-lambda\\lib\\code.js:135:26)",
+              "new Function (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.js:69:33)",
+              "C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7853:49",
+              "Kernel._wrapSandboxCode (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:8313:20)",
+              "Kernel._create (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7853:26)",
+              "Kernel.create (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7600:21)",
+              "KernelHost.processRequest (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7388:28)",
+              "KernelHost.run (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7328:14)",
+              "Immediate._onImmediate (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7331:37)",
+              "processImmediate (internal/timers.js:456:21)"
+            ]
+          }
+        ],
+        "/cdkworkshop/AssetParameters/4a871174e10ad9df76f44cdee7ba8ec75d8ef93c5f9f589b7dfb0c3d846ea3ec/ArtifactHash": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters4a871174e10ad9df76f44cdee7ba8ec75d8ef93c5f9f589b7dfb0c3d846ea3ecArtifactHash0F0F3249",
+            "trace": [
+              "new FileAssetParameters (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\core\\lib\\private\\asset-parameters.js:19:38)",
+              "Stack.addFileAsset (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\core\\lib\\stack.js:358:22)",
+              "new Asset (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-s3-assets\\lib\\asset.js:30:32)",
+              "AssetCode.bind (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-lambda\\lib\\code.js:135:26)",
+              "new Function (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.js:69:33)",
+              "C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7853:49",
+              "Kernel._wrapSandboxCode (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:8313:20)",
+              "Kernel._create (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7853:26)",
+              "Kernel.create (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7600:21)",
+              "KernelHost.processRequest (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7388:28)",
+              "KernelHost.run (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7328:14)",
+              "Immediate._onImmediate (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7331:37)",
+              "processImmediate (internal/timers.js:456:21)"
+            ]
+          }
+        ],
+        "/cdkworkshop/HelloHitCounter/Hits": [
+          {
+            "type": "aws:cdk:hasPhysicalName",
+            "data": "dyna-HitCountDB",
+            "trace": [
+              "ConstructNode.addMetadata (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\core\\lib\\construct-compat.js:306:62)",
+              "new Table (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-dynamodb\\lib\\table.js:240:23)",
+              "C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7853:49",
+              "Kernel._wrapSandboxCode (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:8313:20)",
+              "Kernel._create (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7853:26)",
+              "Kernel.create (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7600:21)",
+              "KernelHost.processRequest (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7388:28)",
+              "KernelHost.run (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7328:14)",
+              "Immediate._onImmediate (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7331:37)",
+              "processImmediate (internal/timers.js:456:21)"
+            ]
+          }
+        ],
+        "/cdkworkshop/HelloHitCounter/Hits/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "HelloHitCounterHits7AAEBF80",
+            "trace": [
+              "new Table (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-dynamodb\\lib\\table.js:222:22)",
+              "C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7853:49",
+              "Kernel._wrapSandboxCode (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:8313:20)",
+              "Kernel._create (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7853:26)",
+              "Kernel.create (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7600:21)",
+              "KernelHost.processRequest (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7388:28)",
+              "KernelHost.run (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7328:14)",
+              "Immediate._onImmediate (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7331:37)",
+              "processImmediate (internal/timers.js:456:21)"
+            ]
+          }
+        ],
+        "/cdkworkshop/HelloHitCounter/HitCountHandler/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "HelloHitCounterHitCountHandlerServiceRole42AAF829",
+            "trace": [
+              "new Role (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.js:41:22)",
+              "new Function (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.js:61:35)",
+              "C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7853:49",
+              "Kernel._wrapSandboxCode (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:8313:20)",
+              "Kernel._create (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7853:26)",
+              "Kernel.create (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7600:21)",
+              "KernelHost.processRequest (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7388:28)",
+              "KernelHost.run (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7328:14)",
+              "Immediate._onImmediate (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7331:37)",
+              "processImmediate (internal/timers.js:456:21)"
+            ]
+          }
+        ],
+        "/cdkworkshop/HelloHitCounter/HitCountHandler/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "HelloHitCounterHitCountHandlerServiceRoleDefaultPolicy0295D032",
+            "trace": [
+              "new Policy (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-iam\\lib\\policy.js:30:26)",
+              "Role.addToPolicy (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.js:161:34)",
+              "Function.addToPrincipal (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-iam\\lib\\grant.js:57:65)",
+              "Table.grant (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-dynamodb\\lib\\table.js:42:26)",
+              "Table.grantReadWriteData (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-dynamodb\\lib\\table.js:119:61)",
+              "C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7680:51",
+              "Kernel._wrapSandboxCode (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:8313:20)",
+              "C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7680:25",
+              "Kernel._ensureSync (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:8289:20)",
+              "Kernel.invoke (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7679:26)",
+              "KernelHost.processRequest (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7388:28)",
+              "KernelHost.run (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7328:14)",
+              "Immediate._onImmediate (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7331:37)",
+              "processImmediate (internal/timers.js:456:21)"
+            ]
+          }
+        ],
+        "/cdkworkshop/HelloHitCounter/HitCountHandler/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "HelloHitCounterHitCountHandler2475EAC2",
+            "trace": [
+              "new Function (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.js:72:26)",
+              "C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7853:49",
+              "Kernel._wrapSandboxCode (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:8313:20)",
+              "Kernel._create (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7853:26)",
+              "Kernel.create (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7600:21)",
+              "KernelHost.processRequest (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7388:28)",
+              "KernelHost.run (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7328:14)",
+              "Immediate._onImmediate (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7331:37)",
+              "processImmediate (internal/timers.js:456:21)"
+            ]
+          }
+        ],
+        "/cdkworkshop/Endpoint/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointEEF1FD8F",
+            "trace": [
+              "new RestApi (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.js:31:26)",
+              "new LambdaRestApi (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.js:17:9)",
+              "C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7853:49",
+              "Kernel._wrapSandboxCode (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:8313:20)",
+              "Kernel._create (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7853:26)",
+              "Kernel.create (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7600:21)",
+              "KernelHost.processRequest (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7388:28)",
+              "KernelHost.run (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7328:14)",
+              "Immediate._onImmediate (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7331:37)",
+              "processImmediate (internal/timers.js:456:21)"
+            ]
+          }
+        ],
+        "/cdkworkshop/Endpoint/Deployment/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointDeployment318525DA18212529f655e311900f6aa999fa9a79",
+            "trace": [
+              "new Deployment (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\deployment.js:40:25)",
+              "LambdaRestApi.configureDeployment (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.js:187:38)",
+              "new RestApi (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.js:45:14)",
+              "new LambdaRestApi (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.js:17:9)",
+              "C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7853:49",
+              "Kernel._wrapSandboxCode (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:8313:20)",
+              "Kernel._create (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7853:26)",
+              "Kernel.create (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7600:21)",
+              "KernelHost.processRequest (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7388:28)",
+              "KernelHost.run (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7328:14)",
+              "Immediate._onImmediate (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7331:37)",
+              "processImmediate (internal/timers.js:456:21)"
+            ]
+          }
+        ],
+        "/cdkworkshop/Endpoint/DeploymentStage.prod/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointDeploymentStageprodB78BEEA0",
+            "trace": [
+              "new Stage (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\stage.js:47:26)",
+              "LambdaRestApi.configureDeployment (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.js:195:36)",
+              "new RestApi (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.js:45:14)",
+              "new LambdaRestApi (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.js:17:9)",
+              "C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7853:49",
+              "Kernel._wrapSandboxCode (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:8313:20)",
+              "Kernel._create (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7853:26)",
+              "Kernel.create (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7600:21)",
+              "KernelHost.processRequest (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7388:28)",
+              "KernelHost.run (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7328:14)",
+              "Immediate._onImmediate (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7331:37)",
+              "processImmediate (internal/timers.js:456:21)"
+            ]
+          }
+        ],
+        "/cdkworkshop/Endpoint/Endpoint": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Endpoint8024A810",
+            "trace": [
+              "LambdaRestApi.configureDeployment (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.js:199:13)",
+              "new RestApi (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.js:45:14)",
+              "new LambdaRestApi (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.js:17:9)",
+              "C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7853:49",
+              "Kernel._wrapSandboxCode (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:8313:20)",
+              "Kernel._create (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7853:26)",
+              "Kernel.create (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7600:21)",
+              "KernelHost.processRequest (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7388:28)",
+              "KernelHost.run (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7328:14)",
+              "Immediate._onImmediate (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7331:37)",
+              "processImmediate (internal/timers.js:456:21)"
+            ]
+          }
+        ],
+        "/cdkworkshop/Endpoint/CloudWatchRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointCloudWatchRoleC3C64E0F",
+            "trace": [
+              "new Role (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.js:41:22)",
+              "LambdaRestApi.configureCloudWatchRole (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.js:208:22)",
+              "new RestApi (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.js:48:18)",
+              "new LambdaRestApi (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.js:17:9)",
+              "C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7853:49",
+              "Kernel._wrapSandboxCode (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:8313:20)",
+              "Kernel._create (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7853:26)",
+              "Kernel.create (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7600:21)",
+              "KernelHost.processRequest (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7388:28)",
+              "KernelHost.run (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7328:14)",
+              "Immediate._onImmediate (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7331:37)",
+              "processImmediate (internal/timers.js:456:21)"
+            ]
+          }
+        ],
+        "/cdkworkshop/Endpoint/Account": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointAccountB8304247",
+            "trace": [
+              "LambdaRestApi.configureCloudWatchRole (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.js:212:26)",
+              "new RestApi (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.js:48:18)",
+              "new LambdaRestApi (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.js:17:9)",
+              "C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7853:49",
+              "Kernel._wrapSandboxCode (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:8313:20)",
+              "Kernel._create (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7853:26)",
+              "Kernel.create (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7600:21)",
+              "KernelHost.processRequest (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7388:28)",
+              "KernelHost.run (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7328:14)",
+              "Immediate._onImmediate (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7331:37)",
+              "processImmediate (internal/timers.js:456:21)"
+            ]
+          }
+        ],
+        "/cdkworkshop/Endpoint/Default/{proxy+}/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Endpointproxy39E2174E",
+            "trace": [
+              "new Resource (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:170:26)",
+              "new ProxyResource (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:204:9)",
+              "RootResource.addProxy (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:20:16)",
+              "new LambdaRestApi (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.js:23:23)",
+              "C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7853:49",
+              "Kernel._wrapSandboxCode (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:8313:20)",
+              "Kernel._create (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7853:26)",
+              "Kernel.create (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7600:21)",
+              "KernelHost.processRequest (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7388:28)",
+              "KernelHost.run (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7328:14)",
+              "Immediate._onImmediate (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7331:37)",
+              "processImmediate (internal/timers.js:456:21)"
+            ]
+          }
+        ],
+        "/cdkworkshop/Endpoint/Default/{proxy+}/ANY/ApiPermission.cdkworkshopEndpointBFC3A9DC.ANY..{proxy+}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointproxyANYApiPermissioncdkworkshopEndpointBFC3A9DCANYproxy8912C483",
+            "trace": [
+              "Function.addPermission (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function-base.js:23:9)",
+              "LambdaIntegration.bind (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\integrations\\lambda.js:31:22)",
+              "Method.renderIntegration (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.js:89:21)",
+              "Method.renderIntegration (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.js:84:29)",
+              "new Method (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.js:40:31)",
+              "ProxyResource.addMethod (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:17:16)",
+              "ProxyResource.addMethod (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:224:22)",
+              "new ProxyResource (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:212:35)",
+              "RootResource.addProxy (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:20:16)",
+              "new LambdaRestApi (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.js:23:23)",
+              "C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7853:49",
+              "Kernel._wrapSandboxCode (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:8313:20)",
+              "Kernel._create (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7853:26)",
+              "Kernel.create (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7600:21)",
+              "KernelHost.processRequest (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7388:28)",
+              "KernelHost.run (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7328:14)",
+              "Immediate._onImmediate (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7331:37)",
+              "processImmediate (internal/timers.js:456:21)"
+            ]
+          }
+        ],
+        "/cdkworkshop/Endpoint/Default/{proxy+}/ANY/ApiPermission.Test.cdkworkshopEndpointBFC3A9DC.ANY..{proxy+}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointproxyANYApiPermissionTestcdkworkshopEndpointBFC3A9DCANYproxyED76C669",
+            "trace": [
+              "Function.addPermission (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function-base.js:23:9)",
+              "LambdaIntegration.bind (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\integrations\\lambda.js:38:26)",
+              "Method.renderIntegration (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.js:89:21)",
+              "Method.renderIntegration (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.js:84:29)",
+              "new Method (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.js:40:31)",
+              "ProxyResource.addMethod (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:17:16)",
+              "ProxyResource.addMethod (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:224:22)",
+              "new ProxyResource (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:212:35)",
+              "RootResource.addProxy (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:20:16)",
+              "new LambdaRestApi (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.js:23:23)",
+              "C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7853:49",
+              "Kernel._wrapSandboxCode (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:8313:20)",
+              "Kernel._create (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7853:26)",
+              "Kernel.create (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7600:21)",
+              "KernelHost.processRequest (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7388:28)",
+              "KernelHost.run (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7328:14)",
+              "Immediate._onImmediate (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7331:37)",
+              "processImmediate (internal/timers.js:456:21)"
+            ]
+          }
+        ],
+        "/cdkworkshop/Endpoint/Default/{proxy+}/ANY/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointproxyANYC09721C5",
+            "trace": [
+              "new Method (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.js:46:26)",
+              "ProxyResource.addMethod (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:17:16)",
+              "ProxyResource.addMethod (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:224:22)",
+              "new ProxyResource (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:212:35)",
+              "RootResource.addProxy (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:20:16)",
+              "new LambdaRestApi (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.js:23:23)",
+              "C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7853:49",
+              "Kernel._wrapSandboxCode (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:8313:20)",
+              "Kernel._create (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7853:26)",
+              "Kernel.create (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7600:21)",
+              "KernelHost.processRequest (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7388:28)",
+              "KernelHost.run (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7328:14)",
+              "Immediate._onImmediate (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7331:37)",
+              "processImmediate (internal/timers.js:456:21)"
+            ]
+          }
+        ],
+        "/cdkworkshop/Endpoint/Default/ANY/ApiPermission.cdkworkshopEndpointBFC3A9DC.ANY..": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointANYApiPermissioncdkworkshopEndpointBFC3A9DCANY43DD0A14",
+            "trace": [
+              "Function.addPermission (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function-base.js:23:9)",
+              "LambdaIntegration.bind (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\integrations\\lambda.js:31:22)",
+              "Method.renderIntegration (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.js:89:21)",
+              "Method.renderIntegration (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.js:84:29)",
+              "new Method (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.js:40:31)",
+              "RootResource.addMethod (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:17:16)",
+              "ProxyResource.addMethod (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:221:37)",
+              "new ProxyResource (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:212:35)",
+              "RootResource.addProxy (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:20:16)",
+              "new LambdaRestApi (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.js:23:23)",
+              "C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7853:49",
+              "Kernel._wrapSandboxCode (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:8313:20)",
+              "Kernel._create (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7853:26)",
+              "Kernel.create (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7600:21)",
+              "KernelHost.processRequest (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7388:28)",
+              "KernelHost.run (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7328:14)",
+              "Immediate._onImmediate (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7331:37)",
+              "processImmediate (internal/timers.js:456:21)"
+            ]
+          }
+        ],
+        "/cdkworkshop/Endpoint/Default/ANY/ApiPermission.Test.cdkworkshopEndpointBFC3A9DC.ANY..": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointANYApiPermissionTestcdkworkshopEndpointBFC3A9DCANY2962C18A",
+            "trace": [
+              "Function.addPermission (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function-base.js:23:9)",
+              "LambdaIntegration.bind (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\integrations\\lambda.js:38:26)",
+              "Method.renderIntegration (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.js:89:21)",
+              "Method.renderIntegration (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.js:84:29)",
+              "new Method (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.js:40:31)",
+              "RootResource.addMethod (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:17:16)",
+              "ProxyResource.addMethod (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:221:37)",
+              "new ProxyResource (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:212:35)",
+              "RootResource.addProxy (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:20:16)",
+              "new LambdaRestApi (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.js:23:23)",
+              "C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7853:49",
+              "Kernel._wrapSandboxCode (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:8313:20)",
+              "Kernel._create (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7853:26)",
+              "Kernel.create (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7600:21)",
+              "KernelHost.processRequest (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7388:28)",
+              "KernelHost.run (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7328:14)",
+              "Immediate._onImmediate (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7331:37)",
+              "processImmediate (internal/timers.js:456:21)"
+            ]
+          }
+        ],
+        "/cdkworkshop/Endpoint/Default/ANY/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointANY485C938B",
+            "trace": [
+              "new Method (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.js:46:26)",
+              "RootResource.addMethod (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:17:16)",
+              "ProxyResource.addMethod (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:221:37)",
+              "new ProxyResource (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:212:35)",
+              "RootResource.addProxy (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.js:20:16)",
+              "new LambdaRestApi (C:\\Users\\kiye5\\AppData\\Local\\Temp\\jsii-kernel-Jl3mKZ\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.js:23:23)",
+              "C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7853:49",
+              "Kernel._wrapSandboxCode (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:8313:20)",
+              "Kernel._create (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7853:26)",
+              "Kernel.create (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7600:21)",
+              "KernelHost.processRequest (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7388:28)",
+              "KernelHost.run (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7328:14)",
+              "Immediate._onImmediate (C:\\Dev\\cdkworkshop\\.env\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7331:37)",
+              "processImmediate (internal/timers.js:456:21)"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "runtime": {
+    "libraries": {
+      "@aws-cdk/cloud-assembly-schema": "1.34.1",
+      "@aws-cdk/cx-api": "1.34.1",
+      "@aws-cdk/core": "1.34.1",
+      "@aws-cdk/region-info": "1.34.1",
+      "@aws-cdk/aws-iam": "1.34.1",
+      "@aws-cdk/aws-cloudwatch": "1.34.1",
+      "@aws-cdk/aws-logs": "1.34.1",
+      "@aws-cdk/aws-events": "1.34.1",
+      "@aws-cdk/aws-kms": "1.34.1",
+      "@aws-cdk/aws-s3": "1.34.1",
+      "@aws-cdk/aws-ssm": "1.34.1",
+      "@aws-cdk/aws-ec2": "1.34.1",
+      "@aws-cdk/assets": "1.34.1",
+      "@aws-cdk/aws-s3-assets": "1.34.1",
+      "@aws-cdk/aws-sqs": "1.34.1",
+      "@aws-cdk/aws-lambda": "1.34.1",
+      "@aws-cdk/aws-sns": "1.34.1",
+      "@aws-cdk/aws-cloudformation": "1.34.1",
+      "@aws-cdk/aws-route53": "1.34.1",
+      "@aws-cdk/aws-certificatemanager": "1.34.1",
+      "@aws-cdk/aws-elasticloadbalancingv2": "1.34.1",
+      "@aws-cdk/aws-apigateway": "1.34.1",
+      "@aws-cdk/aws-autoscaling-common": "1.34.1",
+      "@aws-cdk/aws-applicationautoscaling": "1.34.1",
+      "@aws-cdk/custom-resources": "1.34.1",
+      "@aws-cdk/aws-dynamodb": "1.34.1",
+      "jsii-runtime": "Python/3.8.2"
+    }
+  }
+}

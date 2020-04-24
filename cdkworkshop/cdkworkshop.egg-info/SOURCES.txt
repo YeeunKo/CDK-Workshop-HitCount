@@ -1,0 +1,7 @@
+README.md
+setup.py
+cdkworkshop/cdkworkshop.egg-info/PKG-INFO
+cdkworkshop/cdkworkshop.egg-info/SOURCES.txt
+cdkworkshop/cdkworkshop.egg-info/dependency_links.txt
+cdkworkshop/cdkworkshop.egg-info/requires.txt
+cdkworkshop/cdkworkshop.egg-info/top_level.txt
